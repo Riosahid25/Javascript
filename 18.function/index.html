@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>function</title>
+</head>
+
+<body>
+    <!-- function yaitu kunci utama pada javascript yang membuay javascript sangat powerfull -->
+
+    <!-- definisi
+    1. sebuah sub-prograam / sub-rountine yang dapat 'dipanggil di bagian lain pada program.
+    
+    2.merupakan struktur dasar pembentuk dari javascript/fundamental bildin blogs .
+    
+    3.disebut juga sebagi prosedur (kumpulan statement untuk melakukan tugas atau menghitung sebuah nilai).
+    
+    4.untuk dapat menggunkannya, kita harus  'membuat' terlebih dahulu function tersebut lalu 'memanggil'nya.
+
+    5.termasuk kedalam first-class object
+    -->
+
+    <!-- kenapa function
+    
+    1. reusability (DRY : do not repeat yourself) atau penggunaan kembali kode yg kita buat
+
+    2.dekomposisi/abstraksi maksdnya untuk menyembunykan kompleksitas program yg kita buat karna kita pecah dari bagian2 programnya
+
+    3.modularitas
+-->
+
+    <!-- kategori function
+1.built-in function atau istilahnya function yg sudah dibuatkan oleh javascript
+contoh : yg pernah kita buat yaitu 
+-alert();
+-prompt();
+-confirm();
+
+*built in function yg terkait degan string:
+charAt(), slice(),split(), toString(), toLowerCase, toUppercase(), 
+
+var nama = "rio sahid"
+console.log(nama.charAt(5)); = cara itung caracternya dari 0 nol.
+
+*kalo dlm hal matematika atau math : 
+sin(), cos(),tan(),random(), round(),floor(),ceil(), log().
+
+var bil = math.random();
+console.log(bil);
+
+
+2.user-defined function istilahnya function yg kita buat sendri
+
+
+    -fungsi yg dibuat sendiri
+    -mengguakan keyword funcition
+    -nama function(optinal)
+    
+    -parameter / argument atau bahan baku yg digunakan dalam function
+    : 
+    #disimpan didalam ()
+    #boleh ada atau tidak, jika afa bo;eh lebih dari satu
+    #dipisahkan oleh koma(,)
+    -function body, 'dibungkus' deengan {}
+    -dapat emngembalikan nilai (return value) atau tidak.
+
+    untuk membuat user -define function:
+    -dengean deklasrasi/ function declaration
+    dengan cara ekspresi / function expression
+-->
+
+    <!-- function declaration
+
+    contoh syntax : 
+    function jumlahduabilangan (a,b){
+    var total;
+    total = a+b;
+
+    return total;
+    }
+
+    -->
+
+    <!-- function expression
+    var jumlahduabilangan = function (a,b){
+        var total;
+        total = a + b ;
+
+        return total;
+    }
+    
+    -->
+
+    <!-- cara menjalankan function
+    
+        contoh dengan menggunkan function alert:
+         
+        alert(jumlahduabilangan(1,2));
+        alert(jumlahduabilangan(25,30));
+        alert(jumlahduabilangan(1500,17.5));
+    -->
+</body>
+
+</html>
